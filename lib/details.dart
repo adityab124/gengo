@@ -32,10 +32,10 @@ class _DetailsState extends State<Details> {
             icon: Icon(Icons.settings_backup_restore_rounded),
             onPressed: () => _restartApp(),
           ),
-          IconButton(
-            icon: Icon(Icons.translate_rounded),
-            onPressed: () => _restartApp(),
-          ),
+          // IconButton(
+          //   icon: Icon(Icons.translate_rounded),
+          //   onPressed: () => _restartApp(),
+          // ),
           IconButton(
             icon: Icon(Icons.speaker_phone_rounded),
             onPressed: () => speak(),
